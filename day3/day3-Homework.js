@@ -50,7 +50,7 @@ const indroduce = (name , ...skills) =>{
         
 }
 
-indroduce("Keertan", "java ", "react ", "spring boot ", "Mysql ");
+indroduce("Keertan", "java", "react", "spring boot", "Mysql");
 
 indroduce("Keertan", "java ", "react ", "spring boot ", 12);
 
