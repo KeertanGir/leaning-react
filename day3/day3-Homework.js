@@ -45,7 +45,7 @@ console.log(updateddev);
 // Print kare: "Keertan knows: React, Java, Spring Boot"
 
 const indroduce = (name , ...skills) =>{
-        console.log(`${name} + knows : ${skills.join(", ")}`);
+        console.log(`${name} knows : ${skills.join(", ")}`);
         // `${name} knows: ${skills.join(", ")}`
         
 }
