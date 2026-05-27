@@ -1,8 +1,11 @@
 // import { useState } from "react";
 import './App.css'
-import Counter from './Counter'
-import Profile from './Profile'
-import StudentInfo from './StudentInfo'
+import Counter from './Components/Counter'
+import Profile from './Components/Profile'
+import StudentInfo from './Components/StudentInfo'
+import InputShowName from './Components/InputShowName'
+import CircketProductToggle from './Components/CircketProductToggle'
+import StudentForm from './Components/StudentForm'
 
 
 
@@ -23,6 +26,15 @@ function App() {
       <Profile Name={"Keertan"} Age={23} Online={true} />
       <p>_____________________________</p>
       <StudentInfo Name={"Keertan"} Marks={85} Passed={true}></StudentInfo>
+      <p>_____________________________</p>
+      <InputShowName ></InputShowName>
+      <p>_____________________________</p>
+      <CircketProductToggle></CircketProductToggle>
+
+      <p>_____________ *********** FORM ************ ________________</p>
+      <StudentForm />
+
+
 
     </>
   )
